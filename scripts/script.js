@@ -52,7 +52,7 @@ function nextChapter() {
 		chapterNumber = 1;
 	}
 	
-	audioChapter.src = `/audios/${chapterNumber}.mp3`;
+	audioChapter.src = `audios/${chapterNumber}.mp3`;
 	chapter.innerText = `Capítulo ${chapterNumber}`;
 	currentTime.textContent = '00:00';
 	audioProgress.value = 0;
@@ -72,7 +72,7 @@ function previousChapter() {
 		chapterNumber = numberOfChapters;
 	}
 	
-	audioChapter.src = `/audios/${chapterNumber}.mp3`;
+	audioChapter.src = `audios/${chapterNumber}.mp3`;
 	chapter.innerText = `Capítulo ${chapterNumber}`;
 	currentTime.textContent = '00:00';
 	audioProgress.value = 0;
